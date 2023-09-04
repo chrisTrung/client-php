@@ -867,7 +867,7 @@ class OrganizationsCollectionResponseObject implements ModelInterface, ArrayAcce
      *
      * @return mixed
      */
-    public function offsetGet($offset): mixed
+    public function offsetGet($offset)
     {
         return $this->container[$offset] ?? null;
     }
@@ -908,7 +908,7 @@ class OrganizationsCollectionResponseObject implements ModelInterface, ArrayAcce
      * @return mixed Returns data which can be serialized by json_encode(), which is a value
      * of any type other than a resource.
      */
-    public function jsonSerialize(): mixed
+    public function jsonSerialize()
     {
        return ObjectSerializer::sanitizeForSerialization($this);
     }
