@@ -41,6 +41,5 @@
         "test": "./vendor/bin/pest",
         "analyse": "./vendor/bin/phpstan analyse"
     },
-
-    "minimum-stability": "dev",
+    "minimum-stability": "dev"
 }
