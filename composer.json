@@ -1,7 +1,7 @@
 {
-    "name": "pipedrive/pipedrive",
+    "name": "chrisTrung/pipedrive/client-php",
     "type": "library",
-    "description": "Pipedrive REST client for PHP",
+    "description": "Forked Pipedrive REST client for PHP",
     "keywords": [
         "pipedrive",
         "CRM",
