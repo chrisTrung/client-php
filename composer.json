@@ -1,5 +1,5 @@
 {
-    "name": "chrisTrung/pipedrive/client-php",
+    "name": "christrung/client-php",
     "type": "library",
     "description": "Forked Pipedrive REST client for PHP",
     "keywords": [
